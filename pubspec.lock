@@ -54,14 +54,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_json:
-    dependency: "direct main"
-    description:
-      name: flutter_json
-      sha256: "133bc411cbe6363a9d6239aec7bc073e264d52614da2076aa975386d34e6f7eb"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.4"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -72,11 +64,6 @@ packages:
     version: "4.0.0"
   flutter_test:
     dependency: "direct dev"
-    description: flutter
-    source: sdk
-    version: "0.0.0"
-  flutter_web_plugins:
-    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -112,14 +99,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.0"
-  logging:
-    dependency: transitive
-    description:
-      name: logging
-      sha256: c8245ada5f1717ed44271ed1c26b8ce85ca3228fd2ffdb75468ab01979309d61
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.3.0"
   matcher:
     dependency: transitive
     description:
@@ -152,46 +131,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
-  plugin_platform_interface:
-    dependency: transitive
-    description:
-      name: plugin_platform_interface
-      sha256: "4820fbfdb9478b1ebae27888254d445073732dae3d6ea81f0b7e06d5dedc3f02"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.8"
-  sensors_plus:
-    dependency: transitive
-    description:
-      name: sensors_plus
-      sha256: "362c8f4f001838b90dd5206b898bbad941bc0142479eab9a3415f0f79e622908"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.4.1"
-  sensors_plus_platform_interface:
-    dependency: transitive
-    description:
-      name: sensors_plus_platform_interface
-      sha256: bc472d6cfd622acb4f020e726433ee31788b038056691ba433fec80e448a094f
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.2.0"
-  sensors_plus_web:
-    dependency: transitive
-    description:
-      name: sensors_plus_web
-      sha256: fca8d7d9ab6233b2a059952666415508e252420be1ef54f092d07884da53ec5e
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.2"
-  shake:
-    dependency: "direct main"
-    description:
-      name: shake
-      sha256: "107546951c6b8f5e4c2dca66dfb3aa27dd1a853b4e9a26c9aea224b167045023"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -245,70 +184,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.2"
-  url_launcher:
-    dependency: "direct main"
-    description:
-      name: url_launcher
-      sha256: "9d06212b1362abc2f0f0d78e6f09f726608c74e3b9462e8368bb03314aa8d603"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.3.1"
-  url_launcher_android:
-    dependency: transitive
-    description:
-      name: url_launcher_android
-      sha256: "6fc2f56536ee873eeb867ad176ae15f304ccccc357848b351f6f0d8d4a40d193"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.3.14"
-  url_launcher_ios:
-    dependency: transitive
-    description:
-      name: url_launcher_ios
-      sha256: "16a513b6c12bb419304e72ea0ae2ab4fed569920d1c7cb850263fe3acc824626"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.3.2"
-  url_launcher_linux:
-    dependency: transitive
-    description:
-      name: url_launcher_linux
-      sha256: "4e9ba368772369e3e08f231d2301b4ef72b9ff87c31192ef471b380ef29a4935"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.2.1"
-  url_launcher_macos:
-    dependency: transitive
-    description:
-      name: url_launcher_macos
-      sha256: "17ba2000b847f334f16626a574c702b196723af2a289e7a93ffcb79acff855c2"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.2.2"
-  url_launcher_platform_interface:
-    dependency: transitive
-    description:
-      name: url_launcher_platform_interface
-      sha256: "552f8a1e663569be95a8190206a38187b531910283c3e982193e4f2733f01029"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.3.2"
-  url_launcher_web:
-    dependency: transitive
-    description:
-      name: url_launcher_web
-      sha256: "772638d3b34c779ede05ba3d38af34657a05ac55b06279ea6edd409e323dca8e"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.3.3"
-  url_launcher_windows:
-    dependency: transitive
-    description:
-      name: url_launcher_windows
-      sha256: "3284b6d2ac454cf34f114e1d3319866fdd1e19cdc329999057e44ffe936cfa77"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.1.4"
   vector_math:
     dependency: transitive
     description:
@@ -325,14 +200,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "14.2.5"
-  web:
-    dependency: transitive
-    description:
-      name: web
-      sha256: "868d88a33d8a87b18ffc05f9f030ba328ffefba92d6c127917a2ba740f9cfe4a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.1"
 sdks:
-  dart: ">=3.5.4 <4.0.0"
-  flutter: ">=3.24.0"
+  dart: ">=3.5.3 <4.0.0"
+  flutter: ">=3.18.0-18.0.pre.54"
